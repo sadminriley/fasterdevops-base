@@ -1,3 +1,4 @@
+# Installs hiera packages and creates users
 class base::linux {
     $base_packages = lookup(base::packages)
     $python_packages = lookup(base::python-packages)
@@ -5,9 +6,9 @@ class base::linux {
 
 
   file { '/root/.vimrc' :
-    source    => "puppet:///modules/${module_name}/vimrc",
-    mode      => '0655',
-    owner     => 'root',
+    source => "puppet:///modules/${module_name}/vimrc",
+    mode   => '0655',
+    owner  => 'root',
   }
 
   package { $base_packages: ensure => latest, }

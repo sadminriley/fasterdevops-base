@@ -1,0 +1,12 @@
+{
+  "name": "fasterdevops-base",
+  "version": "1.0",
+  "author": "Riley",
+  "summary": "fasterdevops base linux installs for puppet agents",
+  "license": "MIT",
+  "source": "https://github.com/sadminriley/fasterdevops-base",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 5.2.0"}
+  ]
+}
+
