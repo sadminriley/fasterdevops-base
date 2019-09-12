@@ -6,7 +6,7 @@
   "license": "MIT",
   "source": "https://github.com/sadminriley/fasterdevops-base",
   "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 5.2.0"}
+    {"name":"puppetlabs-stdlib","version_requirement":">= 4.25.1"}
   ]
 }
 
